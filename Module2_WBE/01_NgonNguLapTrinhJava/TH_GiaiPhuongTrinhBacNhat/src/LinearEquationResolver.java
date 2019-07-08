@@ -17,7 +17,6 @@ public class LinearEquationResolver {
             nghiem = -b / a;
             System.out.println("Phương trình có nghiệm là: " + nghiem);
         }
-
     }
 
     public static void main(String[] args) {
