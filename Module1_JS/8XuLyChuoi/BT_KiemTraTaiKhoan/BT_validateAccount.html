@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="form1" id="form1" method="post">
+        <input type="text" id="account" size="40">
+        <input type="button" name="check" value="Check" onclick="validateAccount();">
+    </form>
+    <script>
+        function validateAccount() {
+            var account = document.getElementById('account').value;
+            regexp = /^[_a-z0-9]{6,}$/;
+
+            if (!regexp.test(account)) {
+                alert(
+                    'Hãy nhập tên lớp hợp lệ.\nKhông chứa các ký tự đặc biệt\nÍt nhất là 6 ký tự\nKhông chứa các ký tự viết hoa\nCho phép dấu gạch dưới (_)');
+                return false;
+            } else {
+                alert('Tên tài khoản hợp lệ');
+            }
+        }
+    </script>
+</body>
+
+</html>

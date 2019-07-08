@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function tryRemoveFromArray(arr, index) {
+            var arrLength = arr.length;
+            for (let i = 0; i < arrLength; i++) {
+                if (i === index) {
+                    arr.splice(i, 1);
+                }
+            }
+            return console.log(arr);
+        }
+        arr1 = [12, 6, 3, 7, 21, 5, 7];
+
+        tryRemoveFromArray(arr1, 2);
+        arr2 = [12, 6, 3, 7, 21, 5, 7];
+        tryRemoveFromArray(arr2, 0);
+        arr3 = [12, 6, 3, 7, 21, 5, 7];
+        tryRemoveFromArray(arr3, 7);
+        arr4 = [12, 6, 3, 7, 21, 5, 7];
+        tryRemoveFromArray(arr4, -2);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="myCanvas" width=></canvas>
+    <p> Nhập chiều dài:
+        <input type="text" id="length">
+    </p>
+    <p>Nhập chiều rộng:
+        <input type="text" id="width">
+    </p>
+    <p>
+        <input type="button" value="Tính diện tích" onclick="getAreas()">
+    </p>
+    <p>
+        <input type="button" value="Tính chu vi" onclick="getPerimeters()">
+    </p>
+    <p id="dienTich">Diện tích:</p>
+    <p id="chuVi">Chu vi:</p>
+    <script>
+        function Rectangle(length, width) {
+            this.length = length;
+            this.width = width;
+
+            this.getWidth = function () {
+                return this.width;
+            }
+            this.setWidth = function (width) {
+                this.width = width;
+            }
+
+            this.getLength = function () {
+                return this.length;
+            }
+            this.setLength = function (length) {
+                this.length = length;
+            }
+
+            this.getArea = function () {
+                return this.length * this.width;
+            }
+            this.getPerimeter = function () {
+                return (this.length + this.width) * 2;
+            }
+            this.drawRect = function () {
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillRect(25, 25, length, width);
+                ctx.stroke();
+            }
+        }
+
+
+        function getAreas() {
+            let length = +document.getElementById("length").value
+            let width = +document.getElementById("width").value
+            let rectangle = new Rectangle(length, width);
+            let area = rectangle.getArea();
+            document.getElementById("dienTich").innerHTML = "Diện tích: " + area;
+            rectangle.drawRect();
+        }
+
+        function getPerimeters() {
+            let length = +document.getElementById("length").value
+            let width = +document.getElementById("width").value
+            let rectangle2 = new Rectangle(length, width);
+            let perimeter = rectangle2.getPerimeter();
+            document.getElementById("chuVi").innerHTML = "Chu vi: " + perimeter;
+            rectangle2.drawRect();
+        }
+    </script>
+</body>
+
+</html>

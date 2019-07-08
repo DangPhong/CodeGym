@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Adam vs Eva</legend>
+
+        <p> <input type="button" value="Adam" id="adam"> <a></a></p>
+        <span id="weightAdam"> Adam nặng </span>
+
+        <p id="apple"> <img src="apple.png"> </p>
+        <p> <input type="button" value="Eva" id="eva"></p>
+        <span id="weightEva"> </span>
+
+    </fieldset>
+    <script>
+        class Apple {
+            constructor(weight) {
+                this.weight = 10;
+            }
+            decrease() {
+                this.weight--;
+            }
+            isEmpty() {
+                return (this.weight <= 0) ? false : true;
+            }
+            getWeight() {
+                return this.weight;
+            }
+        }
+
+        class Human {
+            constructor(name, gender, weight) {
+                this.name = name;
+                this.gender = gender;
+                this.weight = weight;
+            }
+            eat(apple) {
+                if (apple.isEmpty()) {
+                    apple.decrease();
+                    this.weight++;
+                } else
+                    alert("Táo đã ăn hết!");
+            }
+            talk(message) {
+                console.log(message);
+            }
+        }
+        var apple = new Apple();
+        var adam = new Human("Adam", "Nam", 60);
+        var eva = new Human("Eva", "Nữ", 45);
+        var appleHtml = document.getElementById("apple");
+        appleHtml.innerHTML = apple.weight;
+        var weightAdam = document.getElementById("weightAdam");
+        weightAdam.innerHTML = adam.weight;
+        var weightEva = document.getElementById("weightEva");
+        weightEva.innerHTML = eva.weight;
+
+        document.getElementById("adam").onclick = function () {
+            appleHtml = document.getElementById("apple");
+            adam.eat(apple);
+            appleHtml.innerHTML = apple.weight;
+            weightAdam = document.getElementById("weightAdam");
+            weightAdam.innerHTML = adam.weight;
+            adam.talk("Adam cắn 1 miếng");
+        }
+
+        document.getElementById("eva").onclick = function () {
+            appleHtml = document.getElementById("apple");
+            eva.eat(apple);
+            appleHtml.innerHTML = apple.weight;
+            weightEva = document.getElementById("weightEva");
+            weightEva.innerHTML = eva.weight;
+            eva.talk("Eva cắn 1 miếng");
+        }
+    </script>
+</body>
+
+</html>
