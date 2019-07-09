@@ -3,11 +3,9 @@ public class ElementArray {
 
     public static void findElementInArray(String arr[], String element) {
         boolean isExit = false;
-        int index;
         for (int i = 0; i < arr.length; i++) {
             if (element == arr[i]) {
-                index = i;
-                System.out.println("Có phần tử " + arr[index] + " trong mảng" + " tại vị trí " + index);
+                System.out.println("Có phần tử " + element + " trong mảng" + " tại vị trí " + i);
                 isExit = true;
             }
         }

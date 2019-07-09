@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba54623-e9be-477a-965b-7610e9a8cf19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MAX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01_NgonNguLapTrinhJava/BT_UngDungDocSoThanhChu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_NgonNguLapTrinhJava/BT_UngDungDocSoThanhChu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01_NgonNguLapTrinhJava/BT_UngDungDocSoThanhChu/out/production/BT_UngDungDocSoThanhChu/NumToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_NgonNguLapTrinhJava/BT_UngDungDocSoThanhChu/out/production/BT_UngDungDocSoThanhChu/NumToString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01_NgonNguLapTrinhJava/BT_UngDungDocSoThanhChu/src/NumToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_NgonNguLapTrinhJava/BT_UngDungDocSoThanhChu/src/NumToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH_TimGiaTriTrongMang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MAX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TH_TimGiaTriTrongMang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TH_TimGiaTriTrongMang/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TH_TimGiaTriTrongMang/out/production/TH_TimGiaTriTrongMang/ElementArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TH_TimGiaTriTrongMang/out/production/TH_TimGiaTriTrongMang/ElementArray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TH_TimGiaTriTrongMang/src/ElementArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TH_TimGiaTriTrongMang/src/ElementArray.java" afterDir="false" />
@@ -26,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MAX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="459">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -70,6 +66,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,12 +79,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TH_TimGiaTriTrongMang" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,9 +125,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -155,7 +152,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Run" order="8" weight="0.32829046" />
+      <window_info anchor="right" id="Run" order="8" weight="0.32782516" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -168,8 +165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MAX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="459">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
