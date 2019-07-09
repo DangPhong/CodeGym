@@ -5,9 +5,9 @@ public class NumToString {
     public static String getOnes(int number) {
         String value = "";
         switch (number) {
-            case 0:
-                value = "không";
-                break;
+//            case 0:
+//                value = "không";
+//                break;
             case 1:
                 value = "một";
                 break;
@@ -78,24 +78,11 @@ public class NumToString {
             case 27:
             case 28:
             case 29:
-                value = "hai mươi " + getOnes(ones);
+                value = "hai mươi " + getOnes(tens);
                 break;
-            case 30:
-                value = "ba mươi";
-                break;
-            case 31:
-            case 32:
-            case 33:
-            case 34:
-            case 35:
-            case 36:
-            case 37:
-            case 38:
-            case 39:
-                value = "ba mươi " + getOnes(ones);
-                break;
+
             default:
-                value = getOnes(tens) + " mươi " + getOnes(ones);
+                value = getOnes(ones) + " mươi " + getOnes(tens);
                 break;
         }
         return value;
@@ -116,38 +103,6 @@ public class NumToString {
         if (number > 0 && number < 10) {
             System.out.println(getOnes(number));
         } else if (number >= 10 && number < 20) {
-//            switch (number) {
-//                case 10:
-//                    System.out.println("mười");
-//                    break;
-//                case 11:
-//                    System.out.println("mười một");
-//                    break;
-//                case 12:
-//                    System.out.println("mười hai");
-//                    break;
-//                case 13:
-//                    System.out.println("mười ba");
-//                    break;
-//                case 14:
-//                    System.out.println("mười bốn");
-//                    break;
-//                case 15:
-//                    System.out.println("mười lăm");
-//                    break;
-//                case 16:
-//                    System.out.println("mười sáu");
-//                    break;
-//                case 17:
-//                    System.out.println("mười bảy");
-//                    break;
-//                case 18:
-//                    System.out.println("mười tám");
-//                    break;
-//                case 19:
-//                    System.out.println("mười chín");
-//                    break;
-//            }
             System.out.println(getBetweenTenAndTwenty(number));
         } else if (number >= 20 && number < 100) {
             System.out.println(getTens(number));
