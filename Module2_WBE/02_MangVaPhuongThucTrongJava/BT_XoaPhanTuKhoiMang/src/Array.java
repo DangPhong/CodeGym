@@ -3,7 +3,7 @@ public class Array {
         int arrLength = arr.length;
         if (pos < 0) {
             pos = 0;
-        } else if (pos > arrLength-1) {
+        } else if (pos > arrLength - 1) {
             pos = arrLength - 1;
         }
         //  Dich chuyen mang de tao o trong truoc khi them.
@@ -14,7 +14,11 @@ public class Array {
         arr[pos] = element;
         //Tăng số lượng phần tử
         arrLength++;
-        System.out.println(arr);
+        System.out.println("Mảng sau khi thêm");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
     }
 
     public static int findElement(int arr[], int element) {
@@ -38,13 +42,18 @@ public class Array {
 
         //giảm số lượng pt sau khi xóa
         arrLength--;
-        System.out.println(arr);
+        System.out.println("Mảng sau khi xóa");
+        for (int i = 0; i < arr.length - 1; i++) {
+
+            System.out.print(arr[i] + " ");
+        }
     }
 
     public static void main(String[] args) {
         int arr1[] = {2, 5, 6, 4, 7, 8};
+        int arr2[] = {2, 5, 6, 4, 7, 8};
+        addElement(arr2, 99, 2);
         deleteElement(arr1, 2);
-        addElement(arr1, 99, 2);
     }
 }
 
