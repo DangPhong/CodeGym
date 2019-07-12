@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f2a1614-38f6-454e-90cc-41b790034591" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc/src/SquareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_MangVaPhuongThucTrongJava/BT_XoaPhanTuKhoiMang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_MangVaPhuongThucTrongJava/BT_XoaPhanTuKhoiMang/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StopWatch.java" afterDir="false" />
     </list>
@@ -20,13 +29,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StopWatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
                 <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
                 <element signature="e#756#757#0" expanded="true" />
               </folding>
             </state>
@@ -64,6 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -76,12 +87,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../02_MangVaPhuongThucTrongJava/BT_XoaPhanTuKhoiMang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../04_KeThua/TH_HeCacDoiTuongHinhHoc" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,7 +135,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18986385" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -156,13 +166,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/StopWatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
             <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
             <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
             <element signature="e#756#757#0" expanded="true" />
           </folding>
         </state>
