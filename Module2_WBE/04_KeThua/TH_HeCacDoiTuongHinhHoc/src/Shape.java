@@ -3,7 +3,6 @@ public class Shape {
     private boolean filled;
 
     public Shape() {
-
     }
 
     public Shape(String color, boolean filled) {
