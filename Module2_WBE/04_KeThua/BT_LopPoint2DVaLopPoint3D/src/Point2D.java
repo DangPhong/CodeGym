@@ -29,9 +29,7 @@ public class Point2D {
 
 
     public float[] getxy() {
-        float[] xy = new float[2];
-        xy[0] = this.getX();
-        xy[1] = this.getY();
+        float[] xy = {getX(), getY()};
         return xy;
     }
 
@@ -46,7 +44,7 @@ public class Point2D {
 
     public static void main(String[] args) {
         Point2D point2D = new Point2D(3, 5);
-        point2D.setXY(6,5);
+        point2D.setXY(6, 5);
         System.out.println(point2D);
     }
 }

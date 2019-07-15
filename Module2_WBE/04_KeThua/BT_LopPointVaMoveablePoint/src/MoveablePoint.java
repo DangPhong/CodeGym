@@ -37,6 +37,12 @@ public class MoveablePoint extends Point {
         return arr;
     }
 
+    public void setSpeed(float x, float y, float xSpeed, float ySpeed) {
+        super.setXY(x, y);
+        this.xSpeed = xSpeed;
+        this.ySpeed = ySpeed;
+    }
+
     @Override
     public String toString() {
         return super.toString() + " Có speed (" + getxSpeed() + ", " + getySpeed() + ")";
@@ -50,6 +56,7 @@ public class MoveablePoint extends Point {
 
     public static void main(String[] args) {
         MoveablePoint moveablePoint = new MoveablePoint(6, 9, 8, 3);
+        moveablePoint.setSpeed(1, 1, 1, 1);
         System.out.println(moveablePoint);
         moveablePoint.move();
         System.out.println(moveablePoint);

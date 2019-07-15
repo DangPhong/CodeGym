@@ -15,10 +15,7 @@ public class Point3D extends Point2D {
     }
 
     public float[] getXYZ() {
-        float[] xyz = new float[3];
-        xyz[0] = this.getX();
-        xyz[1] = this.getY();
-        xyz[2] = this.getZ();
+        float[] xyz = {getY(), getY(), getZ()};
         return xyz;
     }
 
@@ -29,7 +26,7 @@ public class Point3D extends Point2D {
 
     @Override
     public String toString() {
-        return super.toString() + " và tọa độ Y là: " + getZ();
+        return super.toString() + " và tọa độ Z là: " + getZ();
     }
 
     public static void main(String[] args) {
