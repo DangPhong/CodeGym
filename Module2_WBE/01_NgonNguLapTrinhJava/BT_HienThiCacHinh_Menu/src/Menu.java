@@ -63,8 +63,8 @@ public class Menu {
                     break;
                 case 3:
                     System.exit(3);
-                    default:
-                        System.out.println("Không chọn");
+                default:
+                    System.out.println("Chọn lại");
 
             }
         }

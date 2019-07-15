@@ -27,12 +27,26 @@ public class Point2D {
         this.y = y;
     }
 
-    public String toString(){
-        return "Point có tọa độ x: "+ getX()+" và tọa độ y: "+getY();
+
+    public float[] getxy() {
+        float[] xy = new float[2];
+        xy[0] = this.getX();
+        xy[1] = this.getY();
+        return xy;
+    }
+
+    public void setXY(float x, float y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public String toString() {
+        return "Point có tọa độ x: " + getX() + " và tọa độ y: " + getY();
     }
 
     public static void main(String[] args) {
         Point2D point2D = new Point2D(3, 5);
+        point2D.setXY(6,5);
         System.out.println(point2D);
     }
 }
