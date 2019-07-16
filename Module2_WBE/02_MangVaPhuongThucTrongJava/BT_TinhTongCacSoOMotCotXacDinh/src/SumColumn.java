@@ -26,7 +26,7 @@ public class SumColumn {
         for (int i = 0; i < 3; i++) {
             sum = sum + arr[i][cot];
         }
-        System.out.println(sum);
+        System.out.println("Tổng các phần tử của cột " + cot + ": là " + sum);
     }
 
     public static void main(String[] args) {
